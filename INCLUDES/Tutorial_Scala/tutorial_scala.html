@@ -1,0 +1,290 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+<style>
+		body{ background:#DFECB4; }
+		p{ text-align:justify; text-indent: 40px; line-height: 200%; font-size: 14px; }		
+		.imagem{ margin: 10px; text-align:center; }		
+		.imgrande{ width:100%;	}		
+		.imgpequena{ width:100%;	}		
+		.legenda { display: block; font-size: 13px; line-height: 1.5em; margin-top: 5px; color: #333; 	text-align: center; 	word-wrap: break-word; 	}			
+		.principal{	list-style-type:circle;	}		
+		.secundaria{	list-style-type:none; margin-left:20px;	}		
+		a { color:#000; text-decoration:none; }		
+		a:visited {	text-decoration: none; color:#000; }		
+		a:hover {	font-size:105%;	}		
+		a:active {	text-decoration: none; }		
+</style>
+	
+<div style="position: absolute; width:100%; left: 0px;">
+	<div style="position:relative;  width:90%; height:auto; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; margin-top:50px; left:5%;">
+
+		<h3>Módulo Prancha</h3><br />
+		<ul>
+		<li class="principal" ><a href="#Modificando"><span>1 Modificando o Layout da Prancha</span></a></li>
+		<li class="principal" ><a href="#Criando"><span>2 Criando uma Prancha</span></a></li>
+		<li class="secundaria"><a href="#Crando_visualizar"><span>2.1 Visualizar e reproduzir a prancha criada</span></a></li>
+		<li class="secundaria"><a href="#Criando_desfazer"><span>2.2 Desfazer uma operação</span></a></li>
+		<li class="principal" ><a href="#Editar"><span>3 Editar uma figura</span></a></li>
+		<li class="principal" ><a href="#Salvando"><span>4 Salvar a prancha</span></a></li>
+		<li class="principal" ><a href="#Abrindo"><span>5 Abrir a prancha</span></a></li>
+		<li class="principal" ><a href="#Adicionando"><span>6 Adicionar páginas a uma prancha e limpar a prancha</span></a></li>
+		<li class="principal" ><a href="#Exportando"><span>7 Exportar prancha</span></a></li>
+		<li class="principal" ><a href="#Importando"><span>8 Importar figuras</span></a></li>
+		<li class="principal" ><a href="#Imprimir"><span>9 Imprimir prancha</span></a></li>
+		<li class="principal" ><a href="#Prancha_Varredura"><span><b>10 Módulo Prancha Varredura</b></span></a></li>
+		</ul>
+		
+
+		<br />
+		<h4><p id="Modificando"> 1 Modificando o Layout da Prancha<p></h4>
+		<p>Os layouts são as diversas opções que se tem de organizar a prancha e as figuras que nela estão. Alguns layouts possuem maior quantidade de lugares para figuras e outros menor. Para modificar  o layout da prancha basta clicar sobre a opção "Layout" que se encontra no menu inferior.</p>
+		<img src="imagens/menus/menu_inferior_layout.jpg"  class="imgpequena" title="Menu inferior: opção Layout" alt="Menu inferior: opçao Layout"/><span class="legenda">Menu inferior: opção Layout</span>
+		<p>Ao clicar sobre esta opção, abrirá a caixa de diálogo "Escolha a forma do seu Layout" com quatro opções. Para escolher um dos layouts basta clicar sobre ele. E para cancelar basta clicar sobre a opção voltar</p>
+		<center><img src="imagens/alterar_prancha.jpg" style="width: 55%;" class="imagem" title="Caixa de diálogo Escolha um Layout" alt="Caixa de diálogo Escolha um Layout"/><span class="legenda">Caixa de diálogo Escolha um Layout</span></center>
+		<p>Após escolher o layout aparecerá uma mensagem de confirmação, avisando que com a troca de layout as figuras da prancha serão perdidas, isto se não foram salvas anteriormente. Para confirmar a troca de layout basta clicar sobre a opção Ok. Caso contrário, basta clicar sobre a opção Cancelar e salvar a prancha antes de realizar a troca de layout.</p>
+		<center><img src="imagens/alterar_prancha2.jpg" style="width: 45%;" class="imagem" title="Confirma mudança de layout" alt="Confirmar mudança de layout"/><span class="legenda">Confirmar mudança de Layout</span></center>
+		<br />
+		
+		<h4><p id="Criando">2 Criando uma Prancha</p></h4>
+		<p>Para criar uma prancha, inicialmente se escolhe um layout do modo indicado anteriormente, e após pode-se adicionar figuras a ela.  Para adicionar figuras basta escolher uma das opções de categorias listadas no lado esquerdo e clicar sobre a figura desejada. As opções de categorias são: Pessoas, Objeto, Natureza, Ações, Alimentos, Sentimentos, Qualidades e M. Imagens. </p>
+		<p>Em cada categoria há figuras relacionas com a nomenclatura, por exemplo, em "Pessoas" têm figuras de familiares, profissões, nacionalidades, entre outros, e em "Objetos" têm figuras de, por exemplo, bola, caixa, DVD, etc. A categoria "M. Imagens" representa Minhas Imagens e tem as figuras que foram importadas pelo usuário para o aplicativo Scala.</p> 
+		<img src="imagens/menus/menu_lateral.jpg" class="imgrande" title="Categoriasl" alt="Categorias"/><span class="legenda">Categorias</span>
+		<p>Para inserir uma figura na prancha basta clicar sobre ela e depois sobre o lugar  em que ela ficará, assim pode-se inserir diversas figuras. Por exemplo, na imagem a seguir temos a figura de um menino que está comendo. Como comer é uma ação, inicialmente vamos em "Ações" e procuramos a figura da ação Comer.  Em seguida, clicamos primeiramente sobre a ação comer e  depois sobre o espaço onde se deseja colocá-la. </p>
+		<img src="imagens/prancha_comer/image_comer1.jpg"  class="imgrande" title="Inserir primeira figura" alt="Inserir primeira figura"/><span class="legenda">Inserir primeira figura</span>
+		<p>A mesma figura pode ser adicionada diversas vezes, e quando se deseja trocar um figura de lugar basta clicar sobre ela e após sobre o lugar de destino. Se no lugar de destino já houver uma figura, ela então será retirada e a outra colocada automaticamente. </p>	
+		<p>Logo após, podem ser adicionadas outras figuras. Por exemplo, na imagem a seguir foram adicionadas diversas figuras da categoria "Alimentos", para isso basta seguir o mesmo processo, primeiro se clica na categoria "Alimentos" e depois se escolhe a figura, clicando primeiramente na figura e depois no lugar de destino.</p> 
+		<img src="imagens/prancha_comer/image_comer7.jpg" class="imgrande" title="Inserir mais figuras" alt="Inserir mais figuras"/><span class="legenda">Inserir mais figuras</span>
+		<br /> 
+		
+			<h4><p id="Crando_visualizar">2.1 Visualizar e reproduzir a prancha criada</p></h4>
+			<p>Durante a criação de uma prancha, a qualquer momento, pode-se utilizar a opção "Visualizar" para ver como está ficando a prancha e também para reproduzi-la.</p>
+			<img src="imagens/menus/menu_inferior_visualizar.jpg" class="imgpequena" title="Menu inferior: opção Reproduzir" alt="Menu inferior: opção Reproduzir"/><span class="legenda">Menu inferior: opção Reproduzir</span><br />
+			<p>Após clicar na opção Visualizar a caixa de diálogo "Visualização da Prancha" é aberta, na qual se tem a opção de reproduzir a prancha. Na opção Reproduzir as figuras são lidas, de forma sequencial e oral, pelo aplicativo Scala, podendo formar frases como "Comer Abacaxi, Algodão Doce, Ameixa, Bolachas, Banana, Bolo". Para voltar no modo de edição da prancha basta clicar na opção Fechar. </p>
+			<center><img src="imagens/prancha_comer/image_comer_reproduzir.jpg" style="width: 60%;" class="imagem" title="Reproduzindo prancha" alt="Reproduzindo prancha"/></center><span class="legenda">Reproduzindo prancha</span>
+									
+			<br /><br />
+			<h4><p id="Criando_desfazer">2.2 Desfazer uma operação</p></h4>
+			<p>Para desfazer uma operação executada na prancha utiliza-se a opção "Desfazer" que se encontra no menu inferior. Pode-se desfazer até dez operações, após este número a prancha continua como está.</p>
+			<center><img src="imagens/menus/menu_inferior_desfazer.jpg"  class="imgpequena" title="Menu inferior: opção Desfazer" alt="Menu inferior: opção Desfazer"/><span class="legenda">Menu inferior: opção Desfazer</span></center><br />
+			
+				
+		<h4><p id="Editar">3 Editar uma figura</p></h4>
+		<p>Cada figura adicionada em uma prancha pode receber diversas modificações, para isso basta clicar sobre ela e aparecerá um menu no canto inferior direito. A figura selecionada ficará com o fundo branco, como na imagem a seguir.</p>
+		<img src="imagens/menus/menu_figura_configuracao.jpg"  class="imgrande" title="Menu de edição de figura" alt="Menu de edição de figura"/><span class="legenda">Menu de edição de figura</span>
+		
+		<p>A primeira opção do menu é a edição da legenda da figura, para modificá-lo pode ser utilizada a opção "Editar", simbolizada pelo lápis. Ao clicar sobre a opção Editar abre-se a caixa de diálogo "Digite uma legenda" na qual se encontra um espaço para escrever um novo nome para a figura. </p>
+		<p>Após escrever o novo nome basta clicar em Alterar para salvar, ou para cancelar clicar em Fechar.</p>
+			<center><img src="imagens/prancha_comer/editar_figura.jpg" style="width: 20%;" class="imagem" title="Editar figura: digite uma legenda" alt="Editar figura: digite uma legenda"/><span class="legenda">Caixa de diálogo Digite uma legenda</span></center>
+			
+		<p>Na opção "Remover", simbolizada pelo X vermelho, a figura é removida da prancha. Para utilizar esta opção basta clicar sobre o ícone, em seguida abrirá uma mensagem de confirmação, para continuar e remover a figura basta clicar Ok e para cancelar basta clicar em Cancelar.</p>
+			<center><img src="imagens/prancha_comer/figura_configuracao.jpg"  style="width: 50%;" class="imagem" title="Confirmar exclusão de figura" alt="Confirmar exclusão de figura"/><span class="legenda">Caixa de Diálogo Confirmar exclusão de figura</span></center><br />
+		<p>Se o usuário desejar modificar a reprodução, alterando a voz ou a palavra pronunciada, pode realizar a gravação em um gravador e em seguida clicar sobre a opção "Gravar", simbolizada pelo círculo laranja. Ao clicar em gravar abrirá a caixa de diálogo "Alterar audio, upload de som (.mp3)", na qual o usuário ter a opção de procurar um arquivo de som no formato .mp3, gravado anteriormente, e clicar em Enviar para atualizar o som, ou clicar em Fechar para cancelar. </p>
+			<center><img src="imagens/prancha_comer/figura_audio.jpg"  style="width: 40%;" class="imagem" title="Caixa de Diálogo Alterar audio, upload de som(.mp3)" alt="Caixa de Diálogo Alterar audio, upload de som(.mp3)"/><span class="legenda">Caixa de Diálogo Alterar audio, upload de som(.mp3)</span></center><br />
+		<p>Na opção "Reproduzir", simbolizada pelo auto falante,  o nome da figura é reproduzido de forma oral pelo aplicativo Scala. </p>
+		<p>As alterações realizadas em uma figura ficam salvas apenas nesta prancha, e não no aplicativo, ou seja, qualquer outra prancha permanecerá com as características padrão da figura.</p>				
+		<p>É importante que após a edição de uma figura, ou de qualquer ação que necessite selecionar a figura, clicar na figura novamente para tirar a seleção. Caso não seja realizado este procedimento, quando clicado sobre outro lugar na prancha a figura mudará de lugar.</p>
+		<br />	
+		
+		<h4><p id="Salvando">4 Salvar a prancha</p></h4>
+		<p>Durante a criação de uma prancha, a qualquer momento, pode-se utilizar a opção Salvar para salvar a prancha. Esta opção se encontra no menu inferior como indicado na imagem a seguir. </p>	
+		<img src="imagens/menus/menu_inferior_salvar.jpg"  class="imgpequena" title="Menu inferior: opção salvar" alt="Menu inferior: opção salvar"/><span class="legenda">Menu inferior: opção salvar</span>
+		<p>Ao clicar sobre a opção "Salvar" será aberta a caixa de diálogo "Escolha o modo que você deseja salvar a sua prancha", tendo como opções Salvar no computador, em Pranchar Públicas ou em Pranchas Privadas. </p>
+			<center><img src="imagens/prancha_comer/caixa_salvar.jpg" width="80%" title="Caixa de Diálogo Escolha o modo que você deseja salvar a sua prancha" class="imagem" alt= "Caixa de Diálogo Escolha o modo que você deseja salvar a sua prancha"> <span class= "legenda">Caixa de Diálogo "Escolha o modo que você deseja salvar a sua prancha"</span></center>
+		<p>Ao escolher Salvar no computador prancha é salva automaticamente na sua pasta de downloads com o nome do usuário cadastrado. Por exemplo, se o nome do usuário é Gustavo, o nome do arquivo salvo será Gustavo.psw. Se já houver uma prancha com o mesmo nome um segundo arquivo será criado com o nome Gustavo(1).psw.</p>
+		<p>Dependendo das configurações do seu navegador, o arquivo não será salvo automaticamente, mas será aberta uma caixa de diálogo para escolher o local em que se deseja salvar a prancha, como mostra a imagem a seguir. Assim, é só escolher uma pasta do seu computador e, se desejar, modificar o nome da prancha salva.</p>
+			<center><img src="imagens/prancha_comer/salvar.jpg" width="50%" title="Caixa de diálogo Salvar Como" class="imagem" alt= "Caixa de diálogo Salvar Como"> <span class= "legenda">Caixa de diálogo Salvar Como </span></center>
+		<p>Nas outras duas opções basta escrever um nome a prancha e salvá-la. Nas Pranchas Privadas o conteúdo fica disponível apenas ao usuário que o criou, nas Pranchas Públicas fica disponível a todos os usuários do Scalaweb. Após escolher a opção a prancha será salva e a mensagem "Prancha Salva" será exibida.</p>
+			
+		
+		
+		<h4><p id="Abrindo">5 Abrir a prancha</p></h4>
+		<p>Quando o aplicativo Scala for iniciado novamente, as pranchas salvas podem ser abertas utilizando a opção "Abrir", que se encontra no menu inferior.</p>
+		<img src="imagens/menus/menu_inferior_abrir.jpg" class="imgpequena" title="Menu inferior: opção Abrir" alt="Menu inferior: opção Abrir"/><span class="legenda">Menu inferior: opção Abrir</span>  
+		<p>Ao clicar sobre a opção "Abrir", abre a caixa de diálogo "Escolha a prancha que deseja abrir" que contém as opções de abrir no computador e duas listas de pranchas, uma com as Pranchas Privadas e outra com as Pranchas Públicas. Para selecionar um arquivo do computador basta clicar sobre "Escolher arquivo", selecionar a prancha em uma caixa de diálogo semelhante a caixa "Salvar Como" e clicar na opção "Abrir", lembre-se que deve estar no mesmo formato salvo .psw.</p>
+		<p>Para abrir um das pranchas das listas, basta clicar sobre ela, e em seguida sobre a opção "Abrir". Se uma determinada prancha não estiver na lista, basta colocar seu nome no campo disponível e a prancha será buscada.</p>
+			<center><img src="imagens/prancha_comer/abrir_prancha.jpg" class="imgrande" title="Caixa de diálogo Escolha a prancha que deseja abrir" alt="Caixa de diálogo Escolha a prancha que deseja abrir"/></center><span class="legenda">Caixa de diálogo Escolha a prancha que deseja abrir</span>
+		<p>Caso seja escolhido um arquivo que o aplicativo Scala não reconhece sua extensão, ou seja, é diferente de .psw, a mensagem a seguir será exibida.</p>
+			<center><img src="imagens/prancha_comer/abrir_prancha2.jpg" style="width: 40%;" class="imagem" title="Mensagem de erro: extensão não reconhecida" alt="Mensagem de erro: extensão não reconhecida"/></center><span class="legenda">Mensagem de erro: extensão não reconhecida</span>	
+		
+		<h4><p id="Adicionando">6 Adicionar páginas a uma prancha e limpar a prancha</p></h4>
+		<p>Para limpar totalmente a prancha, apagando todas as figuras que nela se encontram, basta clicar na opção "Limpar", que se encontra no menu inferior. Nesta opção o usuário pode apagar todas as figuras e criar uma nova prancha.</p>
+		<img src="imagens/menus/menu_inferior_limpar.jpg"  class="imgpequena" title="Menu inferior: opção Limpar" alt="Menu inferior: opção Limpar"/><span class="legenda">Menu inferior: opção Limpar</span>
+		<p>Após clicar sobre a opção Limpar abre uma mensagem de confirmação, para continuar basta clicar sobre Ok e para não limpar mais a prancha clicar em Cancelar. </p>
+		<center><img src="imagens/prancha_comer/limpar_prancha.jpg" style="width: 40%;" class="imagem" title="Mensagem de Confirmação Limpar Prancha" alt="Mensagem de Confirmação Limpar Pranchar"/></center><span class="legenda">Mensagem de Confirmação Limpar Prancha</span>
+		<p>Porém, se o objetivo é apenas ter mais espaço para adicionar figura e não iniciar uma nova prancha, basta clicar nas setas verdes nas laterais e uma continuação da prancha será adicionada, pronta para ser usada. Assim, tem-se a opção de adicionar espaços na prancha, em vez de limpá-la completamente. Assim, se uma prancha possui mais de uma página, para alternar entre elas utilizam-se as flechas que se encontram em baixo da prancha, ao lado da palavra Página, e esta palavra indica o número total de páginas de uma prancha e a página atual.</p>
+		<center><img src="imagens/tipos_pranchas/image2.jpg" class="imgpequena" title="Alternando entre páginas" alt="Alternando entre páginas"/><span class="legenda">Alternando entre páginas</span><center><br />
+								
+		<h4><p id ="Exportando">7 Exportar</p></h4> 
+		<p>A opção Exportar, que se encontra no menu inferior, é utilizada quando se deseja salvar a prancha com a extensão .pdf, tendo assim a possibilidade de abri-la em outros aplicativos.</p>
+		<img src="imagens/menus/menu_inferior_exportar.jpg"  class="imgpequena" title="Menu inferior: opção Exportar" alt="Menu inferior: opção Exportar"/><span class="legenda">Menu inferior: opção Exportar</span>
+		<p>Após selecionar a opção Exportar a prancha será salva automaticamente na pasta downloads do seu computador no formato .pdf. Novamente, dependendo das configurações do seu navegador será aberta uma caixa de diálogo Salvar Como, na qual se procura um local específico para exportar a prancha. O nome padrão do arquivo exportado é Prancha_NomeUsuário(data), ou por exemplo Prancha_Gustavo(09-06-11).</p>
+		
+		
+		<h4><p id="Importando">8 Importar figuras</p></h4>    
+		<p>Para importar uma figura utiliza-se a opção "Importar" que se encontra no menu inferior. Esta opção possibilita que uma figura seja importada para o aplicativo Scala.</p>
+		<img src="imagens/menus/menu_inferior_importar.jpg" class="imgpequena" title="Menu inferior: opção Importar" alt="Menu inferior: opção Importar"/><span class="legenda">Menu inferior: opção Importar</span>
+
+		<p>Ao clicar sobre a opção "Importar" será aberta a caixa de diálogo "Importar Imagem" na qual se escolhe uma imagem, clicando em "Escolher Arquivo", e se escreve o  nome da imagem. O aplicativo Scala recohece imagens no formato .jpg, .png e .gif, ficando a imagem importada disponível na categoria M. Imagens, ou minhas imagens. O nome escolhido para a imagem é o que será lido pelo aplicativo Scala na opção Reproduzir, ele poderá ser alterado na opção Editar. </p>
+		<center><img src="imagens/prancha_importar/importar_image2.jpg" style="width: 50%;" title="Importando uma figura" alt="Importando uma figura"/></center><span class="legenda">  Importando uma figura </span>
+		<p>Após importar a figura aparecerá a mensagem a seguir e a figura já estará disponível para a criação de pranchas.</p>
+		<center><img src="imagens/prancha_importar/imagem_impor.jpg" style="width: 40%;"  title="Utilizando a figura importada" alt="Utiliando a figura importada"/></center><span class="legenda"> Utilizando a figura importada</span>
+
+		<h4><p id="Imprimir">9 Imprimir a prancha</p></h4>    
+		<p>Para imprimir uma prancha utiliza-se a opção "Imprimir" que se encontra no menu inferior.</p>
+		<img src="imagens/menus/menu_inferior_imprimir.jpg" class="imgpequena" title="Menu inferior: opção Importar" alt="Menu inferior: opção Importar"/><span class="legenda">Menu inferior: opção Importar</span>
+		<p>Ao clicar sobre a opção Imprimir, será aberta uma janela com as configurações da impressora configurada e uma visualização prévia na impressão. Para imprimir basta clicar em imprimir e para cancelar basta clicar em Cancelar. Todas as páginas de uma prancha serão impressas, caso haja mais de uma. </p>
+		<img src="imagens/prancha_comer/prancha_imprimir.jpg" class="imagem" title="Visualização Impressão" alt="Visualização Impressão" width="100%"/><span class="legenda">Visualização Impressão</span>
+		<br /><br />
+		
+	</div>
+	<div style="position: absolute; width:100%; left: 0px;">
+		<div style="position:relative;  width:90%; height:auto; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; margin-top:50px; left:5%;">
+		<br>
+		<h3 id="Prancha_Varredura">10 Módulo Prancha Varredura</h3>
+		<br>
+		<ul>
+		<li class="principal" ><a href="#Ativando"><span>11 Ativando a varredura</span></a></li>
+		<li class="principal" ><a href="#ModificandoVar"><span>12 Modificando o Layout da Prancha</span></a></li>
+		<li class="principal" ><a href="#CriandoVar"><span>13 Criando uma Prancha</span></a></li>
+		<li class="secundaria"><a href="#Criando_visualizarVar"><span>13.1 Visualizar e reproduzir a prancha criada</span></a></li>
+		<li class="secundaria"><a href="#Criando_desfazerVar"><span>13.2 Desfazer uma operação</span></a></li>
+		<li class="principal" ><a href="#SalvandoVar"><span>14 Salvar a prancha</span></a></li>
+		<li class="principal" ><a href="#AbrindoVar"><span>15 Abrir a prancha</span></a></li>
+		<li class="principal" ><a href="#LimpandoVar"><span>16 Limpar uma prancha</span></a></li>
+		<li class="principal" ><a href="#Exportar_importar_imprimir"><span>17 Exportar,importar e imprimir prancha</span></a></li>
+		</ul>
+
+	<br />
+	<br>
+		<h4><p id="Ativando"> 11 Ativando a Varredura</p></h4>
+		<p>O SCALA módulo prancha foi desenvolvido também para ser usado por meio de acesso indireto(varredura).Assim, para ter 
+		acesso ao SCALA por meio de varredura clique no ícone configurações que se encontra no menu superior, conforme a figura abaixo:</p>
+		<center><img src="imagens/varredura/configuracoes.png" class="imgrande"/>
+		<p>Após o clique na opção configurações é aberta uma janela que permite fazer as seguintes configurações:
+		<br>* Ativar a varredura;
+		<br>* Definir a cor de varredura;
+		<br>* Definir a velocidade;
+		<br>* Ativar som de varredura (Em desenvolvimento);
+		<br>* Alterar o idioma (Em desenvolvimento);</p> 
+		<center><img src="imagens/varredura/opcoes_cores.png" class="imgrande"/>
+		<p>Depois de fazer qualquer alteração clique na opção concluir, caso não pretenda efetivar as alterações clique no fechar.</p>
+		<center><img src="imagens/varredura/salvar_configuracoes.png" width="70%" class="imagem"/>
+		
+		<h4><p id="Menu_Inferior"> Varredura no Menu Inferior</p></h4>
+		<p>As mesmas opções que se encontram no SCALA via acesso direto são as mesma no SCALA via acesso indireto ( varredura), porém o algoritmo de acesso difere. Após o clique na opção concluir
+		<img src="imagens/varredura/icone_concluir.png"/> , automaticamente aparece o ícone categorias 
+		<img src="imagens/varredura/icone_categorias.png"/> no menu inferior e inicia a varredura automática simples1 no menu inferior e nas setas2 a varredura inicia da esquerda para direita num ciclo repetitivo até que o usuário ative ou acione o acionador ou clique do mouse.</p>
+		<center><img src="imagens/varredura/menu_inferior.png" class="imgrande"/>
+		
+		<br />
+		<h4><p id="ModificandoVar"> 12 Modificando o Layout da Prancha<p></h4>
+		<p>Para modificar o layout da prancha basta ativar ou acionar o acionador ou mouse no memento que a varredura passar sobre a opção "Layout".</p>
+		<img src="imagens/varredura/varredura_layout.png"/>
+		<p>Ao clicar sobre esta opção, abrirá a caixa de diálogo "Escolha a forma do seu Layout" com quatro opções. Para escolher um dos layouts basta clicar sobre ele. E para cancelar basta clicar sobre a opção voltar</p>
+		<center><img src="imagens/varredura/escolher_layout.png" class="imgrande" class="imagem" title="Caixa de diálogo Escolha um Layout" alt="Caixa de diálogo Escolha um Layout"/><span class="legenda">Caixa de diálogo Escolha um Layout</span></center>
+		<br />
+		
+		
+		<h4><p id="CriandoVar">13 Criando uma Prancha</p></h4>
+		<p>Para a criação da prancha usa-se o mesmo princípio que no acesso direto o que difere é a forma de
+		acesso. No menu inferior existe o ícone categorias
+		<img src="imagens/varredura/icone_categorias.png"/>
+		que serve de link para o acesso ao menu das
+		categorias. Depois de selecionada a opção categorias a varredura passa automaticamente para o menu
+		de categorias.Caso o usuário pretenda voltar para o menu inferior deve acionar o acionador quando a
+		varredura passar pelo último ícone do menu das categorias <img src="imagens/varredura/icone_funcionalidades.png"/>
+		Para adicionar figuras basta clicar ou ativar o acionador quando a varredura passa na das opções da
+		categoria desejada. As opções de categorias são: Pessoas, Objeto, Natureza, Ações, Alimentos,
+		Sentimentos, Qualidades e M. Imagens.</p>
+		
+		<center><img src="imagens/varredura/varredura_categorias.png" class="imgrande"/>
+		<p>Após a seleção de uma das categorias por meio de varredura automaticamente é aberta uma janela
+		com as imagens que pertencem à dada categoria. E inicia uma varredura em filas horizontais de
+		imagens. Depois de terminada a varredura nas filas a varredura passa para o ícone voltar <img src="imagens/varredura/icone_voltar.png"/>
+		e visualizar mais imagens <img src="imagens/varredura/seta.png"/>, fazendo assim um ciclo repetitivo até que o usuário escolha uma opção.</p>
+
+		<center><img src="imagens/varredura/seleciona_fila.png" class="imgrande"/>
+
+		<p>Quando selecionada a fila a varredura passa a ser simples, e percorre apenas nas figuras da fila selecionada.</p>
+	
+		<center><img src="imagens/varredura/seleciona_figura.png" class="imgrande"/>
+
+		<p>Após o clique na figura desejada automaticamente volta à prancha, onde é feita a varredura em cada célula
+		para permitir o usuário colocar a imagem no local desejado.</p>
+
+		<center><img src="imagens/varredura/selecionar_celula.png" class="imgrande"/>
+
+			<br /> 
+		
+			<h4><p id="Criando_visualizarVar">13.1 Visualizar e reproduzir a prancha criada</p></h4>
+			<p>Após a seleção da opção Visualizar 
+			<img src="imagens/varredura/icone_visualizar.png"/> 
+			é aberta uma janela onde mostra a prancha construída,e a varredura ocorre entre as setas , opção reproduzir e voltar.
+			Na opção Reproduzir as figuras são lidas, de forma sequencial e oral, pelo aplicativo SCALA.</p>
+			
+			<center><img src="imagens/varredura/pag_visualizar.png" class="imgrande"/>
+			
+			<br /><br />
+			<h4><p id="Criando_desfazerVar">13.2 Desfazer uma operação</p></h4>
+			<p>Funciona do mesmo jeito que no acesso direto. Para desfazer uma operação executada na prancha utiliza-se a opção "Desfazer" que se encontra no menu inferior. Pode-se desfazer até dez operações, após este número a prancha continua como está.</p>
+			
+			<center><img src="imagens/varredura/varredura_desfazer.png" width="60%"/>
+				
+		
+		<h4><p id="SalvandoVar">14 Salvar a prancha</p></h4>
+		<p>Esta opção se encontra no menu inferior como indicado na imagem a seguir no momento que a varredura passa pelo ícone salvar.</p>	
+		
+		<center><img src="imagens/varredura/salvar_prancha.png" class="imgrande"/>
+		
+		<p>Ao clicar sobre a opção "Salvar" é aberta a caixa que permite Salvar em Pranchas Privadas com o nome do usuário -data-hora. Nas Pranchas Privadas o conteúdo fica disponível apenas ao usuário que o criou. Veja a figura abaixo:</p>
+		
+		<center><img src="imagens/varredura/dialog_salvar.png" width="80%"/>
+		
+		
+		<h4><p id="AbrindoVar">15 Abrir a prancha</p></h4>
+		<p>Depois de selecionada a opção abrir por meio da varredura, é aberta a janela que permite usar as
+		pranchas que se encontram gravadas em pranchas publicas ou privadas.Onde, é feita primeiramente a
+		varredura para selecionar qual é o grupo de pranchas que pretende abrir,ou seja, se pretende abrir
+		pranchas privadas ou públicas. Depois de selecionado o grupo é feita a varredura somente nas pranchas
+		do grupo selecionado (no máximo 10 pranchas) e depois de percorrer todas as pranchas na lista do
+		grupo privado ou publico a varredura passa a percorrer novamente nas mesma pranchas, onde a ação
+		do acionador já não é de abrir a prancha, mas de apagar .
+		A varredura também é feita nos ícones 
+		<img src="imagens/varredura/icones_mais_menos.png"/>
+		para visualizar as pranchas posteriores ou anteriores
+		e no ícone voltar para o menu inferior 
+		<img src="imagens/varredura/icone_voltar.png"/></p>
+
+		<center><img src="imagens/varredura/menu_abrir.png" width="95%"/>
+	
+		<h4><p id="LimpandoVar">16 Limpar prancha</p></h4>
+		<p>Para limpar cada célula ou totalmente a prancha as figuras que nela se encontram, basta clicar na opção
+		"Limpar" 
+		<img src="imagens/varredura/icone_limpar.png"/>
+		quando a varredura passar por ela, que se encontra no menu inferior.
+		Automaticamente é visualizada a prancha, e realizada uma varredura simples em cada célula da prancha
+		e terminada a varredura em cada célula é feita nas setas para voltar ou avançar para as paginas
+		seguintes e em seguida a varredura passa na opção apagar tudo e opção voltar para o menu inferior.</p>
+
+		<center><img src="imagens/varredura/pag_limpar.png" class="imgrande"/>
+		
+		<p>No momento que a varredura é feita em cada célula, basta clicar no acionador que automaticamente é
+		removida a figura na célula selecionada, e no momento que a varredura é feita na opção lixeira 
+		<img src="imagens/varredura/icone_lixeira.png"/>
+		permite apagar todas as imagens. Em suma, o usuário pode apagar uma por uma ou todas as figuras e
+		criar uma nova prancha.</p>
+										
+		<h4><p id ="Exportar_importar_imprimir">17 Exportar, importar figuras e imprimir uma prancha</p></h4> 
+		<p>A opção exportar, importar e imprimir não funciona por meio de varredura, é necessário desativar o
+		acesso indireto para o seu uso. Caso o usuário selecione uma das opções referenciadas é aberta uma
+		janela de aviso, informando que só poderá efetuar tal operação usando acesso direto.</p>
+		<center><img src="imagens/varredura/opcoes_acesso_direto.png" width="70%"/>
+		</div>
+	</div>
+</div>
+</body>
+</html>

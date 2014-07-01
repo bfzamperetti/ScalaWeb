@@ -1,0 +1,16 @@
+RewriteEngine on
+
+RewriteRule ^usuarios/?$ index.php?query=usuarios
+RewriteRule ^emails/?$ index.php?query=emails
+RewriteRule ^profissao/(.*)/?$ index.php?query=profissao&param=$1
+RewriteRule ^local/(.*)/?$ index.php?query=local&param=$1
+RewriteRule ^cidade/(.*)/?$ index.php?query=cidade&param=$1
+
+# RETRIEVE
+#RewriteRule ^info/?$ index.php?retrieve=serverInfo
+#RewriteRule ^usuario/([0-9]+)/?$ index.php?retrieve=usuario&id=$1
+#RewriteRule ^prancha/([0-9]+)/?$ index.php?retrieve=prancha&id=$1
+#RewriteRule ^pranchasPublicas/?$ index.php?retrieve=prancha&tipo=publica
+#RewriteRule ^pranchasPrivadas/([0-9]+)/?$ index.php?retrieve=prancha&tipo=privada&id=$1
+
+

@@ -1,0 +1,62 @@
+body{
+	height:100%;
+	width:100%;
+	background-color:#DFECB4;
+	margin:0 auto;
+	
+}
+/*Usado na INDEX.PHP */
+#conteudo{
+	background-color:#CCC;
+	margin:0 auto;
+	width:30%;
+	height:23%;
+	border-radius:30px;
+	text-align:center;
+	margin-top:40px;
+	text-decoration:blink;
+	padding-top:3px;		
+}
+#logo_scala{
+	text-align:center;
+}
+.geral_hist{
+	width:800px;
+	height:100px;
+	background-color:#CCC;
+	margin:0 auto;
+	border-radius:30px;
+	padding-top:10px;
+}
+
+#resultado{
+	width:790px;
+	height:450px;
+	border-radius:10px;
+	background-color:#CCC;
+	margin:0 auto;
+	padding-left:10px;
+	margin-top:20px;
+	font-size:13px;
+	overflow: auto;
+	padding-right:10px;
+
+}
+#rr{
+color:red;
+}
+#paragrafos{
+	font-family: verdana;
+	font-weight: bold;
+	font-size:20px;
+	text-align: center;
+}
+
+#menu{
+	float:left;	
+	margin-left:20px;
+}
+
+#mostra_historico{
+	float:right;
+}

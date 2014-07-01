@@ -1,0 +1,85 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+<style>
+		body{ background:#DFECB4; }
+		p{ text-align:justify; text-indent: 40px; line-height: 200%; font-size: 14px; }		
+		.imagem{ margin: 10px; text-align:center; }		
+		.imgrande{ width:100%;	}		
+		.imgpequena{ width:100%;	}		
+		.legenda { display: block; font-size: 13px; line-height: 1.5em; margin-top: 5px; color: #333; 	text-align: center; 	word-wrap: break-word; 	}			
+		.principal{	list-style-type:circle;	}		
+		.secundaria{	list-style-type:none; margin-left:20px;	}		
+		a { color:#000; text-decoration:none; }		
+		a:visited {	text-decoration: none; color:#000; }		
+		a:hover {	font-size:105%;	}		
+		a:active {	text-decoration: none; }		
+</style>
+	
+<div style="position: absolute; width:100%; left: 0px;">
+	<div style="position:relative;  width:90%; height:auto; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; margin-top:50px; left:5%;">
+
+		<h3>Módulo Prancha</h3><br />
+		<ul>
+		<li class="principal" ><a href="#Modificando"><span>1 Trocando Avatar</span></a></li>
+		<li class="principal" ><a href="#Criando"><span>2 Adicionando um amigo</span></a></li>
+		<li class="principal" ><a href="#Excluindo"><span>3 Excluindo um amigo</span></a></li>
+		<li class="principal" ><a href="#Conversa"><span>4 Inciando uma conversa</span></a></li>
+		<li class="principal" ><a href="#Conversa_recebida"><span>5 Recebendo uma solicitação para iniciar a conversa</span></a></li>
+		</ul>
+		
+		
+		<br />
+		<h4><p id="Modificando"> 1 Trocando Avatar<p></h4>
+		<p>Cada usuário possui uma representação no sistema chamada avatar, ela se encontra no canto esquerdo da tela incial. Para modificar seu avatar basta clicar no botão "Selecionar Avatar".</p>
+		<img src="imagens/tela_avatar.png"  class="imgpequena" title="Menu superior: Selecionar Avatar" alt="Menu superior: Selecionar Avatar"/><span class="legenda">Menu superior: Selecionar Avatar</span>
+		<p>Ao clicar sobre esta opção, abrirá a caixa de diálogo "Escolha um Avatar" com as opções de avatares. Para escolher um dos avatares basta clicar sobre ele. E para cancelar basta clicar sobre a opção fechar.</p>
+		<center><img src="imagens/escolha_avatar.png" style="width: 55%;" class="imagem" title="Escolha um Avatar" alt="Caixa de diálogo Escolha um Avatar"/><span class="legenda">Caixa de diálogo Escolha um Avatar</span></center>
+		<p>Após escolher o avatar, automaticamente o avatar será trocado na tela prinicipal.</p>
+		<br />
+		
+		
+		<h4><p id="Adicionando">2 Adicionando um amigo</p></h4>
+		<p>Cada usuário possui uma lista de amigos no sistema indicados embaixo de sua foto, inicialmente o usuário não possui nenhum amigo. Para adicionar basta clicar no botão "Adicionar Amigo".</p>
+		<img src="imagens/tela_adicionar.png" class="imgrande" title="Adicionar Amigo" alt="Adicionar Amigo"/><span class="legenda">Menu superior: Adicionar Amigo</span>
+		<p>Ao clicar sobre esta opção, abrirá a caixa de diálogo "Digite o nome do amigo". Para adicionar um amigo basta digitar o nome ou parte dele selecionando entre as opções existentes e finalizando ao clicar em Adicionar.
+		Para distinção entre pessoas com o mesmo nome foi adicionado o e-mail ao lado do nome. Para cancelar basta clicar sobre a opção fechar.</p>
+		<center><img src="imagens/add_amigo.png"  class="imagem" style="width: 55%;" title="Adicionar Amigo" alt="Adicionar Amigo"/><span class="legenda">Adicionar Amigo</span></center>
+		<p>Após escolher o amigo, automaticamente o amigo é adicionado a lista do usuário. Podendo aparecer no quadro de usuários online ou offline.</p> 
+		<br /> 
+		
+		<h4><p id="Excluindo">3 Excluindo um amigo<p></h4>
+		<p>Para excluir amigos basta clicar no botão "Excluir Amigo".</p>
+		<img src="imagens/tela_excluir.png"  class="imgpequena" title="Menu superior: Excluir Amigo" alt="Menu superior: Excluir Amigo"/><span class="legenda">Menu superior: Excluir Amigo</span>
+		<p>Ao clicar sobre esta opção, abrirá a caixa de diálogo "Arraste na lixeira para excluir" com os amigos. Para excluir um amigo (ou vários) basta arrastá-lo para a lixeira e clicar em salvar. E para cancelar basta clicar sobre a opção cancelar.</p>
+		<center><img src="imagens/excluir_amigo.png" style="width: 55%;" class="imagem" title="Excluir Amigo" alt="Caixa de diálogo Excluir Amigo"/><span class="legenda">Caixa de diálogo Excluir Amigo</span></center>
+		<p>Após excluir os amigos, automaticamente a tela principal será atualizada.</p>
+		<br />
+		
+		<h4><p id="Conversa">4 Inciando uma conversa<p></h4>
+		<p>Para iniciar uma conversa basta clicar em um amigo online.</p>
+		<img src="imagens/tela_conversa.png"  class="imgpequena" title="Iniciar Conversa" alt="Iniciar Conversa"/><span class="legenda">Iniciar Conversa</span>
+		<p>Inicialmente o chat conta com o usuário que iniciou a conversa no lado direito da tela. No lado esquerdo estão as categorias de pictogramas.
+		No centro a conversa propriamente dita e na parte inferior o campo onde pode-se enviar um texto para um amigo. Para fechar a conversa basta clicar para fechar a janela, a conversa não é salva.</p>
+		<center><img src="imagens/conversa_iniciada.png" style="width: 55%;" class="imagem" title="Tela chat" alt="Caixa de diálogo Chat Pictográfico"/><span class="legenda">Caixa de diálogo Chat Pictográfico</span></center>
+		<p>Para selecionar um pictograma basta clicar na categoria e depois no pictograma que ele irá automaticamente para o campo de texto na parte inferior da tela.
+		Pode-se ainda adicionar caracteres a conversa clicando no campo no lado inferior e escrevendo. Para enviar o texto basta clicar em "Enviar" que 
+		ele irá aparecer no centro da tela no log da conversa. Para apagar o último pictograma basta clicar no botão "Apagar".</p>
+		<center><img src="imagens/conversa2.png" style="width: 55%;" class="imagem" title="Conversa iniciada" alt="Conversa iniciada"/><span class="legenda">Conversa iniciada</span></center>
+		<br />
+		
+		<h4><p id="Conversa_recebida">5 Recebendo uma solicitação para iniciar a conversa<p></h4>
+		<p>Caso o usuário receba uma solicitação para iniciar uma conversa, um alerta irá aparecer na tela e o amigo que solicitou irá aparecer destacado entre os amigos
+		online.</p>
+		<img src="imagens/conversa_recebida.png"  class="imgpequena" title="Conversa Recebida" alt="Conversa Recebida"/><span class="legenda">Conversa Recebida</span>
+		<p>Para responder a solicitação basta clicar no amigo destacado que o chat irá ser aberto com todos os participantes da conversa.</p>
+		<center><img src="imagens/chat_recebida.png" style="width: 55%;" class="imagem" title="Tela chat resposta" alt="Chat Pictográfico Resposta"/><span class="legenda">Chat Pictográfico Resposta</span></center>
+		<br />		
+
+	</div>
+</div>
+</body>
+</html>

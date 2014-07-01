@@ -1,0 +1,22 @@
+no onclick da pessoa que o usuario quer conversar, eu faço um refresh na pagina (ou chama a funçao q atualiza status via ajax)
+
+1- se o usuario continuar existindo entra na tela de chat
+
+2- senao manda um alerta dizendo q o usuario esta offline e tranfere para o quadro dos offlines
+
+
+PERGUNTA:
+- podera acontecer que o amigo saiu do sistema mas esteja dentro do tempo de 10 min de tolerancia, ocasionando
+que o usuario fale cm alguem offline.
+soluçao1: dar refresh na pagina a cada 1 min;
+
+OBS:
+
+-um usuario esta online somente quando entra na tela de cadastro do comunicador
+
+
+
+///usando socket.io
+
+- todos usuarios utilizam um mesmo canal "comunicador", mas soh sera informado para o usuario
+os amigos que estao cadastrados na base

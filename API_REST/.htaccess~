@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^user/?$ index.php?retrieve=user
+RewriteRule ^user/(.*)/?$ index.php?retrieve=user&id=$1
+RewriteRule ^createUser/?$ index.php?create=user

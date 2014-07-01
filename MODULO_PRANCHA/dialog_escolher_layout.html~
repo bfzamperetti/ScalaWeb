@@ -1,0 +1,26 @@
+<div id="dialog_escolher_layout" title="Escolha a forma do seu layout">
+	<form action="index.php" method="post" name="frmEscLayout" />	
+        <img src="imagens/site/tela1/layout_mini_1.png" width="112" height="73" class="img_escolher_layout" id="layout_1" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso',function(r){ if (r){ novoLayout(1); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/tela1/layout_mini_2.png" width="112" height="73" class="img_escolher_layout" id="layout_2" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso',function(r){ if (r){ novoLayout(2); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/tela1/layout_mini_3.png" width="112" height="73" class="img_escolher_layout" id="layout_3" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso',function(r){ if (r){ novoLayout(3); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/tela1/layout_mini_4.png" width="112" height="73" class="img_escolher_layout" id="layout_4" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso',function(r){ if (r){ novoLayout(4); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/tela1/layout_mini_5.png" width="112" height="73" class="img_escolher_layout" id="layout_5 " onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso',function(r){ if (r){ novoLayout(5); $('#dialog_escolher_layout').dialog('close'); }});"/>
+   	</form>
+</div>     
+		
+<script>
+	$('#dialog_escolher_layout').dialog({
+		autoOpen: false,
+		width: 630,
+		buttons: {
+				"Voltar": function() {
+					$(this).dialog('close');
+				}
+			}
+	});
+
+	$('#escolher_layout').click(function(){
+		$('#dialog_escolher_layout').dialog('open');
+		return false;
+	});
+</script>

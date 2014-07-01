@@ -1,0 +1,118 @@
+body, html, #tudo { top: 0px; left: 0px; font-size: 11px; font-family: arial; height: 100%; width: 100%; position:absolute; margin:0; padding:0; background-color: #DFECB4;}
+
+.dialog_login  .ui-dialog-titlebar-close { display: none; } 
+.dialog_login  .ui-dialog-titlebar { background: #9ACD32; color: #fff; } 
+.dialog_login  .ui-dialog { background: #DFECB4; } 
+.dialog_cadastro .ui-dialog-titlebar-close { display: none; } 
+.dialog_cadastro .ui-dialog-titlebar { background: #9ACD32;  color: #fff;} 
+#superior{ width: 85%; top:0; left: 15%; float:right; height: 20%; border:0; position:absolute;}
+	.logo_escala{ float:right; padding-top: 1%; } 
+.centro{ width: 80%; height: 64%; top:20%; left:10%; position:absolute;  border:0;}
+	.layout{ margin: 1%; height: 88%; width: 98%; }
+		.quadrinho_padrao{ cursor:pointer; margin: 0.3%; display: block; overflow: hidden; background: #ccc; border: 1px dashed #aaa; width: 49%; height: 48%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.quadrinho_padrao:hover{ border: 1px dashed #888; }
+		.quadrinho_seis_iguais{ cursor:pointer; margin: 0.3%; display: block; text-align:center;overflow: hidden;  background: #ccc; border: 1px dashed #aaa; width: 32.5%; height: 48%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.quadrinho_seis_iguais:hover{ border: 1px dashed #888; }
+		.quadrinho_grande{ cursor:pointer; margin: 0.3%; display: block; text-align:center;overflow: hidden;  background: #ccc; border: 1px dashed #aaa; width: 98%; height: 96%; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.quadrinho_grande:hover{ border: 1px dashed #888; }
+		.quadrinho_emcima_grande{ cursor:pointer; margin: 0.3%; text-align:center; display: block; overflow: hidden; background: #ccc; border: 1px dashed #aaa; width: 99%; height: 48%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.quadrinho_emcima_grande:hover{ border: 1px dashed #888; }
+		.quadrinho_meio{ cursor:pointer; float: left; margin: 0.3%; display: block; text-align:center;overflow: hidden;  background: #ccc; border: 1px dashed #aaa; width: 49%; height: 100%; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.quadrinho_meio:hover{ border: 1px dashed #888; }
+	.barra_navegacao_layout{ height: 8%; width: 100%; position: absolute; top: 92%; }
+		.seta_dir_barra_nav_layout{ z-index: 95; cursor:pointer; background: url(../imagens/site/icones_legendados/avancar.png) no-repeat; height: 42px; width: 44px; position: relative; top:0px; }
+		.seta_esq_barra_nav_layout{ z-index: 95; cursor:pointer; background: url(../imagens/site/icones_legendados/retornar.png) no-repeat; height: 42px; width: 44px; position: relative; }
+		.informar_quadro_atual_nav_layout{ font-size: 13px;}
+#inferior{width: 100%; left: 0; top: 84%; height: 16%; position:absolute;  border:0; }
+	#inferior_bg{ position: absolute; height:100%; width: 100%; z-index: 0; }
+	#menu_inferior{ z-index:2; }
+		.img_escolher_layout{ cursor: pointer; padding: 2px }
+		.img_escolher_layout:hover{ border: #eee;}
+		.img_escolher_layout:hover{ border: #eee;}
+.tela_carregando{ z-index: 99999; top: 0px; left: 0px; height: 100%; width: 100%; position:absolute; margin:0; padding:0; background-color: #DFECB4;}
+.voltar{ width: 60px; height: 60px; background: url(../imagens/site/tela1/voltar.png) no-repeat; cursor: pointer; position: fixed; left: 100%; top: 10px; margin-left: -90px;}
+.div-ajax-carregamento-pagina{	position: absolute;	top: 0px;	left: 0px;	width: 100%; height: 100%; z-index: 9999997; opacity:0.65; -moz-opacity: 0.65; filter: alpha(opacity=65); background: black; text-align: center; }
+.div-carregamento-pagina{	display: none;  position: absolute;	top: 0px;	left: 0px;	width: 100%; height: 100%; z-index: 9999997; text-align: center; }
+.div-ajax-carregamento-pagina{	position: absolute;	top: 0px;	left: 0px;	width: 100%; height: 100%; z-index: 9999998; text-align: center; }
+
+#superior_quadrinho{ width: 85%; top:0; left: 15%; float:right; height: 10%; border:0; position:absolute;}
+	.logo_escala{ float:right; padding-top: 1%; } 
+#centro_quadrinho{ width: 80%; cursor: pointer; height: 73%; margin-bottom: 1%; top:10%; left:15%;  position:absolute;}
+	.tela_quadrinho_1{ width: 95%; cursor: pointer; height: 75%;  top:10%; left:0; display: block; overflow: hidden;  position:absolute; background: #ccc; border: 1px dashed #aaa;}
+	.tela_quadrinho_2{ width: 95%; cursor: pointer; height: 75%;  top:10%; left:0; display: block; overflow: hidden;  position:absolute; background: #ccc; border: 1px dashed #aaa;}
+	.tela_quadrinho_3{ width: 99%; cursor: pointer; height: 48%;  top:30%; left:0; display: block; overflow: hidden;  position:absolute; background: #ccc; border: 1px dashed #aaa;}
+	.tela_quadrinho_4{ width: 48.75%; cursor: pointer; height: 72%;  top:10%; left:0; display: block; overflow: hidden;  position:absolute; background: #ccc; border: 1px dashed #aaa;}
+	.tela_quadrinho_5{ width: 49%; cursor: pointer; height: 75%;  top:10%; left:0; display: block; overflow: hidden;  position:absolute; background: #ccc; border: 1px dashed #aaa;}
+	.layout{ margin: 1%; height: 88%; width: 98%; }
+	.cenario{ position: absolute; width: 100%; height: 100%; display:block; left: 0; top: 0; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;  }
+	.ico_dialog_cenario{ float:left; border: 1px solid #ccc; display:table; padding: 2px; margin: 2px;  background: #eee; cursor:pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
+	.ico_dialog_cenario:hover{ background: #f5f5f5; }
+		.imgquad{ position: absolute; display: block; border: 1px solid transparent; }
+		.imgquad img{ position: absolute;}  
+			.texto_balao{ word-wrap: break-word; text-align: center; position:absolute; left: 10%; top: 10%; width: 80%; height: 60%; display:block; }
+	.imgquad_vis{ position: absolute; display: block; z-index:2; margin:0; padding:0; }
+	.imgquad_vis img{ position: absolute; top:0; left:0; margin:0; padding:0; }  
+	.dialog_opcoes_imgquad  { position: absolute; display: block; left: 50%; width: 45%; top: 85%; height: 12%; z-index: 99;  }
+		.opcoes_imgquad{ position: relative; padding: 2%; width: 100%; height: 95%; }
+			.ico_opcoes_imgquad { position: relative; float:left; cursor: pointer; width: 10%; height: 60%; margin-top: 5%;  margin-left: 1%; }
+	.tabela_de_cores{ overflow: auto; display: block; width: 100%; height: 100%; }
+		.cor_tabela_de_cores{ float:left; width: 20px; height: 20px; cursor: pointer; border: 1px solid #000; display:block; }
+	.narracao{ margin-bottom: 1%; width: 98%; height: 9%; position: absolute; left:0; top: 0; }
+	.alterar_narracao{ background: #ccc; margin-right: 2px; padding: 4px; font-size: 13px; text-shadow: 0px 0px 2px #fff; border: 1px solid #aaa; float:left;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+	.alterar_narracao:hover{ background: #eee;}
+	.mostrar_narracao{ font-size: 20px; text-shadow: 0 0 2px #fff; color: #222; margin-left: 20px; float:left; }
+#esquerda_quadrinho{  width: 15%; float:left; height: 100%; position:absolute; z-index: 999; border:0;}
+	#menu_esquerda{ height: 98%; width: 40%; padding: 1%; float: left; position: relative;}
+		.item_menu_esquerda{ width: 100%; height: 11%; display:block; cursor: pointer; position: relative; }
+	#listaimagens{  max-width: 50%; float:left; width: 50%; height: 100%; max-height: 100%;  }
+		#listarImagens{ overflow: auto; overflow-y: auto; overflow-x:hidden; outline: 0 none; height: 100%; max-width: 100%; float:left; width: 100%; max-height: 100%; }
+			.qdr_imagem_lista{ padding: 2px; width: 80%; display: table; text-align: center; cursor: pointer; border: 1px dashed transparent;}
+				.img_imagem_lista{ width: 100%; }
+				.nome_imagem_lista{ text-shadow: 0px 1px 1px ##ccc; color: #222; }
+				.img_apagar_minha_imagem{ width: 10px; height: 10px; float:right; background: url(../imagens/site/icon_fechar.gif); position: relative; z-index: 999; }
+		.img_nao_encontrada{ text-shadow: 0px 1px 1px #9AFF9A; font-size: 12px; text-align: center; color: #222; }
+
+#inferior_quadrinho{width: 85%; left: 15%; top: 84%; height: 16%; position:absolute;  border:0; }
+	#dock2{  }
+
+.visualizar{ margin:0; padding:0; width: 95%; height: 100%; top:0; left:0; position:absolute; display:block;}
+
+.lista_de_hist{ overflow-y: scroll; overflow-x: hidden; width: 360px; height: 330px; background: #667c26; border: 1px dashed #115511; margin: 5px; float: left;   }
+.cab_lista_hist{height: 37px; width: 340px;  z-index: 992; position: fixed; background: #667c26; }	
+	.titulo_lista_de_hist{ height: 15px; width: 328px; background: #115511;  z-index: 999; position: fixed; border: 1px solid #003300; color:#fff; margin: 2px; padding: 5px;  }
+	.hist_lista_hist{ width: 328px; height: 18px; background: #a0c544; border: 1px solid #4e7c41; color:#333; margin: 2px; padding: 4px;  }
+	.hist_lista_hist:hover{ background: #ccfb5d; cursor: pointer; }
+	.lista_de_hist_quadro{ margin-top: 64px; position: relative; }
+		.foto_hist_lista { float:left; margin-right: 2px; }
+		.nome_hist_lista { float:left; color: #000; text-shadow: 0px 1px 1px #ccc; }
+		.data_hist_lista { float:right; color: #667c26; text-shadow: 0px 1px 1px #ccc; }
+		.fechar_hist_lista { float:right; z-index: 990;}
+		.msg_lista_hist{ color: #eee; padding: 2px; }
+	.busca_lista_de_hist{ z-index: 999; position: fixed; width: 330px; height: 22px; background: #667c26; border-bottom: 1px dashed #ccfb5d; margin: 2px; margin-top: 30px; padding: 4px;  }
+	.busca_lista_de_hist input{ color: #ccc; }
+
+/******************************/
+
+#imprimir { height: 100%; width: 100%; top:0; left:0; padding-top:40px; }
+.hist_vis_cab{ width: 100%; color: #222; font-size: 16px; font-family: 'arial'; }
+	.hist_vis_cab .nome_usr_cab{ color: #000; font-size: 20px; font-family: 'arial';}
+.imprimir_quadrinho_padrao{ display: block; overflow: hidden; background: #ccc; border: 1px dashed #aaa; width: 100%; height: 100%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+.imprimir_quadrinho_seis_iguais{ text-align:center;overflow: hidden;  background: #ccc; border: 1px dashed #aaa; width: 32.5%; height: 48%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+.imprimir_quadrinho_grande{ display:block; text-align:center; overflow: hidden;  background: #ccc; border: 1px dashed #aaa; width: 100%; height: 100%; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+.imprimir_quadrinho_meio{ display:block; text-align:center; overflow: hidden;  background: #ccc; border: 1px dashed #aaa; width: 100%; height: 100%; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+.imprimir_quadrinho_emcima_grande{ text-align:center; overflow: hidden; background: #ccc; border: 1px dashed #aaa; width: 99%; height: 48%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+.qdr_imprimir{position: relative; width: 100%; height: 100%; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+.imgquad_vis_imprimir{ position: absolute; display: block; }
+	.imgquad_vis_imprimir img{ position: absolute; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }  
+
+/* Imagens Dialogs*/
+.dialog_botao_fechar{ width: 60px; padding:0; height: 60px; background: url(../imagens/site/icones_legendados/img2.png) !important; }
+.dialog_botao_abrir{ width: 60px; padding:0; height: 60px; background: url(../imagens/site/icones_legendados/img3.png) !important; }
+.dialog_botao_salvar{ width: 60px; padding:0; height: 60px; background: url(../imagens/site/icones_legendados/img4.png) !important; }
+.dialog_botao_concluir{ width: 60px; padding:0; height: 60px; background: url(../imagens/site/icones_legendados/img.png) !important; }
+.dialog_botao_computador{ width: 62px; padding:0; height: 60px; background: url(../imagens/site/icones_legendados/img5.png) !important; }
+.dialog_botao_privadas{ width: 60px; padding:0; height: 61px; background: url(../imagens/site/icones_legendados/privadas.png) !important; }
+.dialog_botao_publicas{ width: 60px; padding:0; height: 61px; background: url(../imagens/site/icones_legendados/publicas.png) !important; }
+
+#popup_ok{width: 60px; padding:0; height: 60px; background: url(../imagens/site/icones_legendados/img.png) !important;}
+#popup_cancel{width: 60px; padding:0; height: 60px; background: url(../imagens/site/icones_legendados/img2.png) !important;}

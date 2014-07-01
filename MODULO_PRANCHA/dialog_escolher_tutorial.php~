@@ -1,0 +1,43 @@
+<div id="dialog_escolher_tutorial" title="Qual tutorial você deseja abrir?"></div>
+     		
+<script>
+	$('#dialog_escolher_tutorial').dialog({
+		autoOpen: false,
+		width: 500,
+		height: 0,
+		buttons: {
+				"Scala":{
+					text: "Scala",
+					click: function() {
+					var left=(screen.width-700)/2;
+					var top = (screen.height-500)/2;
+					window.open('../INCLUDES/Tutorial_Scala/tutorial_scala.html','_blank', 'width=700, height=500, left='+left+', top='+top+', scrollbars=yes,titlebars=yes,toolbars=no,location=no');
+					}				
+				},
+				"Scala Varredura":{
+					text: "Scala Varredura",
+					click: function() {
+					var left=(screen.width-700)/2;
+					var top = (screen.height-500)/2;
+					window.open('../INCLUDES/Tutorial_Scala/tutorial_scala.pdf','_blank', 'width=700, height=500, left='+left+', top='+top+', scrollbars=yes,titlebars=yes,toolbars=no,location=no');
+					}
+				},
+				"Voltar":{
+					text: "",
+					click: function() {
+					$(this).dialog('close');
+					}				
+				}
+		},
+		create:function () {
+			$(this).closest(".ui-dialog").find(".ui-button").eq(2).addClass("dialog_botao_fechar");
+		}
+	});
+
+	$('#ajuda').click(function(){
+		$('#dialog_escolher_tutorial').dialog('open');
+		return false;
+	});
+	
+</script>
+

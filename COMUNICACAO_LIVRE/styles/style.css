@@ -1,0 +1,49 @@
+.chat_geral {
+	width:100%;
+	height:100%;
+	border: 1px dashed;
+	border-color:#000000;
+	border:0;
+	
+}
+
+#chat_frases_montadas{
+	overflow: auto;
+	width: 99%;
+	height: 80%;
+	background-color:#CCC;
+	margin:0 auto;
+	padding-top:10px;
+	border-radius:10px;
+	border:1px dashed #AAA;
+	margin-top:20px;
+}
+
+#chat_escrever{
+	width:89%;
+	height:100px;
+	background-color:#CCC;	
+	float:left;
+	border-radius:15px;
+	margin:0 auto;
+	margin-top:10px;
+	font-size:20px;
+	border:1px dashed #AAA;
+	
+}
+
+#chat_botao{
+	width:80px;
+	margin-top:10px;
+	float: right;
+	height:80px;
+	margin-right:20px;	
+}
+
+#chat_superior{
+	
+}
+
+#chat_inferior{
+	
+}

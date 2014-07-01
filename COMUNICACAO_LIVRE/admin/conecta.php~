@@ -1,0 +1,12 @@
+﻿<?php
+
+$host="localhost";
+$usuario="gregory";
+$senha="linuxkk";
+$bd="scala";
+$porta="5432";
+
+$conectar = pg_connect("host=$host port=$porta dbname=$bd user=$usuario password=$senha") or die ("erro");
+
+
+?>

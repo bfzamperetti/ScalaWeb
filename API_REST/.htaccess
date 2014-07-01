@@ -1,0 +1,22 @@
+RewriteEngine on
+
+# RETRIEVE
+RewriteRule ^info/?$ index.php?retrieve=serverInfo
+RewriteRule ^usuario/?$ index.php?retrieve=usuario
+RewriteRule ^usuario/([0-9]+)/?$ index.php?retrieve=usuario&id=$1
+RewriteRule ^prancha/([0-9]+)/?$ index.php?retrieve=prancha&id=$1
+RewriteRule ^pranchasPublicas/?$ index.php?retrieve=prancha&tipo=publica
+RewriteRule ^pranchasPrivadas/([0-9]+)/?$ index.php?retrieve=prancha&tipo=privada&id=$1
+RewriteRule ^historia/([0-9]+)/?$ index.php?retrieve=historia&id=$1
+RewriteRule ^historiasPublicas/?$ index.php?retrieve=historia&tipo=publica
+RewriteRule ^historiasPrivadas/([0-9]+)/?$ index.php?retrieve=historia&tipo=privada&id=$1
+RewriteRule ^imagemUsuario/([0-9]+)/?$ index.php?retrieve=imagem&idUsuario=$1
+RewriteRule ^imagemCategoria/([0-9]+)/?$ index.php?retrieve=imagem&idCategoria=$1
+RewriteRule ^imagem/([0-9]+)/?$ index.php?retrieve=imagem&id=$1
+RewriteRule ^categoria/?$ index.php?retrieve=categoria
+RewriteRule ^categoria/([0-9]+)/?$ index.php?retrieve=categoria&id=$1
+
+# CREATE
+RewriteRule ^criarUsuario/?$ index.php?create=usuario
+RewriteRule ^salvarPrancha/?$ index.php?create=prancha
+RewriteRule ^salvarHistoria/?$ index.php?create=historia

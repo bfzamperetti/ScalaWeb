@@ -1,0 +1,58 @@
+body, html { top: 0px; left: 0px; font-size: 11px; font-family: arial; height: 100%; width: 100%; position:absolute; margin:0; padding:0; background-color: #DFECB4;}
+.dialog_login  .ui-dialog-titlebar-close { display: none; } 
+.dialog_login  .ui-dialog-titlebar { background: #7CFC00; } 
+.dialog_login  .ui-dialog { background: #DFECB4; } 
+.dialog_cadastro .ui-dialog-titlebar-close { display: none; } 
+.dialog_cadastro .ui-dialog-titlebar { background: #9ACD32; } 
+#superior{ width: 85%; top:0; left: 15%; float:right; height: 20%; border:0; position:absolute;}
+	.logo_escala{ float:right; padding-top: 1%; } 
+#esquerda{  width: 15%; float:left; height: 80%; position:absolute;  border:0;}
+	#menu_esquerda{ height: 100%; width: 36%; padding: 7%; z-index: 2; float: left;}
+		.item_menu_esquerda{ margin-top: 5%; cursor: pointer; }
+	#listaimagens{  max-width: 50%; float:left; width: 50%; height: 100%; max-height: 100%; }
+		#listarImagens{ outline: 0 none; max-width: 100%; float:left; width: 100%; max-height: 100%; }
+			#lista_imgs{  max-width: 100%; width: 100%; overflow: hidden; max-height: 100%; }
+			.qdr_imagem_lista{ padding: 0.1%; width: 100% text-align: center; cursor: pointer; }
+				.img_imagem_lista{ width: 100%; }
+				.nome_imagem_lista{ text-shadow: 0px 1px 1px ##ccc; color: #222; }
+			.img_nao_encontrada{ text-shadow: 0px 1px 1px #9AFF9A; font-size: 12px; text-align: center; color: #222; }
+#centro{ width: 85%; float:right; height: 60%; top:20%; left:15%; position:absolute;  border:0;}
+	.layout{ margin: 1%; height: 88%; width: 98%; }
+		.prancha_padrao{ cursor:pointer; margin: 0.3%; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 23%; height: 32%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.prancha_padrao:hover{ border: 1px dashed #888;}
+		.prancha_superior_grande{ cursor:pointer; margin: 0.3%; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 93.7%; height: 65%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.prancha_superior_grande:hover{ border: 1px dashed #888;}
+		.prancha_esquerda_grande{ cursor:pointer; margin: 0.3%; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 46.6%; height: 99%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.prancha_esquerda_grande:hover{ border: 1px dashed #888;}
+		.prancha_superior_pequena{ cursor:pointer; margin: 0.3%; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 93.7%; height: 32%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.prancha_superior_pequena:hover{ border: 1px dashed #888;}
+		.prancha_esquerda_pequena{ cursor:pointer; margin: 0.3%; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 23%; height: 65.6%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.prancha_esquerda_pequena:hover{ border: 1px dashed #888;}
+	.barra_navegacao_layout{ height: 8%; margin-left: -50px; width: 100px; text-align:center; left: 47%; position: relative; }
+		.seta_dir_barra_nav_layout{ background: url(../imagens/site/seta_dir.png) no-repeat; height: 100%; width: 16px; float:left; position: relative; }
+		.seta_dir_barra_nav_layout:hover{ cursor: pointer; background: url(../imagens/site/seta_dir_hover.png) no-repeat; }
+		.seta_esq_barra_nav_layout{ background: url(../imagens/site/seta_esq.png) no-repeat; height: 100%; width: 16px; float:left; }
+		.seta_esq_barra_nav_layout:hover{ cursor: pointer; background: url(../imagens/site/seta_esq_hover.png) no-repeat; }
+		.informar_quadro_atual_nav_layout{ font-size: 13px; float:left;}
+	.dialog_opcoes_prancha  { position: fixed; display: none; left: 60%; width: 30%; top: 75%; height: 12%; z-index: 99;  }
+		.ico_nuvem { position: relative; float:left; cursor: pointer;  }
+#inferior{width: 100%; top: 80%; height: 20%; position:absolute;  border:0; }
+	#inferior_bg{ position: absolute; height:100%; width: 100%; z-index:0; }
+	#menu_inferior{ z-index:2; }
+		.img_escolher_layout{ cursor: pointer; padding: 2px }
+		.img_escolher_layout:hover{ border: #eee;}
+.dialog_visualizar{ width: 100%; height: 100%; } /*as classes vis sao usadas na visualização e na montagem de pdf */
+	.vis_layout{ background-color: #DFECB4; margin: 5%; height: 80%; width: 80%; padding: 5%;  }
+	.vis_cab{ width: 100%; color: #222; font-size: 16px; font-family: 'arial'; }
+	.vis_cab .nome_usr_cab{ color: #000; font-size: 20px; font-family: 'arial';}
+	.vis_prancha_padrao{ cursor:pointer; overflow: hidden;  text-align:center; background: #ccc; border: 1px dashed #aaa; margin: 1px; width: 164px; height: 132px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_prancha_padrao:hover{ border: 1px dashed #888;}
+	.vis_prancha_superior_grande{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 669px; height: 262px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_prancha_superior_grande:hover{ border: 1px dashed #888;}
+	.vis_prancha_esquerda_grande{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 330px; height: 404px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_prancha_esquerda_grande:hover{ border: 1px dashed #888;}
+	.vis_prancha_superior_pequena{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 669px; height: 132px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_prancha_superior_pequena:hover{ border: 1px dashed #888;}
+	.vis_prancha_esquerda_pequena{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 164px; height: 268px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_prancha_esquerda_pequena:hover{ border: 1px dashed #888;}
+

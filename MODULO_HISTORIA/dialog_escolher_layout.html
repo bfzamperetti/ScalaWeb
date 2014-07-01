@@ -1,0 +1,32 @@
+<div id="dialog_escolher_layout" title="<?php echo $_str['chooseLayoutDialogTitle']; ?>">
+	<form action="index.php" method="post" name="frmEscLayout" />	
+        <img src="imagens/site/layoutcloud2x2.png" width="112" height="73" class="img_escolher_layout" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso', function(r){ if(r) { novoLayoutHistoria(1); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/layoutcloud1x1.png" width="112" height="73" class="img_escolher_layout" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso', function(r){ if(r) { novoLayoutHistoria(2); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/layoutcloud2x1.png" width="112" height="73" class="img_escolher_layout" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso', function(r){ if(r) { novoLayoutHistoria(3); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/layoutcloud2x3.png" width="112" height="73" class="img_escolher_layout" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso', function(r){ if(r) { novoLayoutHistoria(4); $('#dialog_escolher_layout').dialog('close'); }});"/>
+        <img src="imagens/site/layoutcloud1x2.png" width="112" height="73" class="img_escolher_layout" onclick="javascript: jConfirm('Algumas pranchas podem ser perdidas, deseja continuar?','Aviso', function(r){ if(r) { novoLayoutHistoria(5); $('#dialog_escolher_layout').dialog('close'); }});"/>
+   	</form>
+</div>     
+		
+<script>
+	$('#dialog_escolher_layout').dialog({
+		autoOpen: false,
+		width: 624,
+		buttons: {
+				"Voltar":{
+				text: "",
+				click: function() {
+					$(this).dialog('close');
+				}
+			}
+		},
+		create:function () {
+			$(this).closest(".ui-dialog").find(".ui-button").eq(0).addClass("dialog_botao_fechar");
+		}
+	});
+
+	$('#escolher_layout').click(function(){
+		$('#dialog_escolher_layout').dialog('open');
+		return false;
+	});
+</script>

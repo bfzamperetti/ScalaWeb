@@ -1,0 +1,98 @@
+body, html { top: 0px; left: 0px; font-size: 11px; font-family: arial; height: 100%; width: 100%; position:absolute; margin:0; padding:0; background-color: #DFECB4;}
+.dialog_login  .ui-dialog-titlebar-close { display: none; } 
+.dialog_login  .ui-dialog-titlebar { background: #9ACD32; color: #fff; } 
+.dialog_login  .ui-dialog { background: #DFECB4; } 
+.dialog_cadastro .ui-dialog-titlebar-close { display: none; } 
+.dialog_cadastro .ui-dialog-titlebar { background: #9ACD32;  color: #fff;} 
+#superior{ width: 85%; top:0; left: 15%; float:right; height: 20%; border:0; position:absolute;}
+	.logo_escala{ float:right; padding-top: 1%; } 
+#esquerda{  width: 15%; float:left; height: 100%; position:absolute; z-index: 999; border:0;}
+	#menu_esquerda{ max-height: 98%; max-width: 40%; padding: 1%; float: left;} /*   era 98     */
+		.item_menu_esquerda{ width: 100%; height: 70px; cursor: pointer; position: relative; margin-top: 3px;}
+	#listaimagens{  max-width: 50%; float:left; width: 50%; height: 100%; max-height: 100%; }
+		#listarImagens{ outline: 0 none; max-width: 100%; float:left; width: 100%; max-height: 100%; }
+			#lista_imgs{  max-width: 100%; width: 100%; overflow: hidden; max-height: 100%;  }
+			.qdr_imagem_lista{ padding: 2px; width: 80%; display: table; text-align: center; cursor: pointer; border: 1px dashed transparent;}
+				.img_imagem_lista{ width: 100%; }
+				.nome_imagem_lista{ text-shadow: 0px 1px 1px ##ccc; color: #222; }
+				.img_apagar_minha_imagem{ width: 10px; height: 10px; background: url(../imagens/site/icon_fechar.gif); position: absolute; left: 100%; margin-left: -16px; z-index: 999; }
+			.img_nao_encontrada{ text-shadow: 0px 1px 1px #9AFF9A; font-size: 12px; text-align: center; color: #222; }
+#centro{ width: 84%; float:right; height: 64%; top:20%; left:15%; position:absolute;  border:0;}
+	.layout{ margin: 1%; height: 88%; width: 90%; }
+		.prancha_padrao{ cursor:pointer; margin: 0; text-align:center; background: #fff; border: 1px dashed #aaa; width: 8%; height: 26%; float:left;}
+			.img_prancha_padrao{ height: 60%; margin-top: 2%; } /* Antes de 60 era 80, testar 70 */
+			.nome_prancha_padrao{ margin-top: 1%; } /* Editar margem superior e direita */
+		.prancha_padrao:hover{ border: 1px dashed #888;}
+		.prancha_superior_grande{ cursor:pointer; margin: 0.3%; text-align:center; background: #fff; border: 1px dashed #aaa; width: 93.7%; height: 65%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+			.img_prancha_superior_grande{ height: 70%; margin-top: 5%; }
+			.nome_prancha_superior_grande{ margin-top: 1%; }
+		.prancha_superior_grande:hover{ border: 1px dashed #888;}
+		.prancha_esquerda_grande{ cursor:pointer; margin: 0.3%; text-align:center; background: #fff; border: 1px dashed #aaa; width: 46.6%; height: 99%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+			.img_prancha_esquerda_grande{ height: 70%; margin-top: 5%; }
+			.nome_prancha_esquerda_grande{ margin-top: 1%; }
+		.prancha_esquerda_grande:hover{ border: 1px dashed #888;}
+		.prancha_superior_pequena{ cursor:pointer; margin: 0.3%; text-align:center; background: #fff; border: 1px dashed #aaa; width: 93.7%; height: 32%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+			.img_prancha_superior_pequena{ height: 70%;  margin-top: 1%; }
+			.nome_prancha_superior_pequena{ margin-top: 1%; }
+		.prancha_superior_pequena:hover{ border: 1px dashed #888;}
+		.prancha_esquerda_pequena{ cursor:pointer; margin: 0.3%; text-align:center; background: #fff; border: 1px dashed #aaa; width: 23%; height: 65.6%; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+			.img_prancha_esquerda_pequena{ height: 70%; margin-top: 5%; }
+			.nome_prancha_esquerda_pequena{ margin-top: 1%; }
+		.prancha_esquerda_pequena:hover{ border: 1px dashed #888;}
+	.barra_navegacao_layout{ height: 8%; width: 94%; position: absolute; top: 92%; }
+		.seta_dir_barra_nav_layout{ z-index: 95; cursor:pointer; background: url(../imagens/site/seta_esq.png) no-repeat; height: 32px; width: 42px; position: relative; }
+		.seta_esq_barra_nav_layout{ z-index: 95; cursor:pointer; background: url(../imagens/site/seta_dir.png) no-repeat; height: 32px; width: 42px; position: relative; }
+		.informar_quadro_atual_nav_layout{ font-size: 13px;}
+	.dialog_opcoes_prancha  { position: absolute; display: block; left: 65%; width: 25%; top: 75%; height: 12%; z-index: 99;  }
+		.opcoes_prancha{ position: relative; padding: 2%; width: 100%; height: 95%; }
+			.ico_nuvem { position: relative; float:left; cursor: pointer; width: 22%; height: 60%; margin-top: 5%;  margin-left: 1%; }
+
+#inferior{width: 85%; left: 15%; top: 84%; height: 16%; position:absolute;  border:0; }
+	#inferior_bg{ position: absolute; height:100%; width: 100%; z-index: 0; }
+	#menu_inferior{ z-index:2; }
+		.img_escolher_layout{ cursor: pointer; padding: 2px }
+		.img_escolher_layout:hover{ border: #eee;}
+.dialog_visualizar{ width: 100%; height: 100%; } /*as classes vis sao usadas na visualização e na montagem de pdf */
+	.vis_layout{ background-color: #DFECB4; margin: 5%; height: 80%; width: 80%; padding: 5%;  }
+	.vis_cab{ width: 100%; color: #222; font-size: 16px; font-family: 'arial'; }
+	.vis_cab .nome_usr_cab{ color: #000; font-size: 20px; font-family: 'arial';}
+	.vis_prancha_padrao{ cursor:pointer; overflow: hidden;  text-align:center; background: #ccc; border: 1px dashed #aaa; margin: 1px; width: 164px; height: 132px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_img_prancha_padrao{ height: 80%; margin-top: 5%; }
+		.vis_prancha_padrao:hover{ border: 1px dashed #888;}
+		.vis_nome_prancha_padrao{ margin-top: -10%; }
+	.vis_prancha_superior_grande{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 669px; height: 262px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_img_prancha_superior_grande{height: 80%; margin-top: 5%; }
+		.vis_prancha_superior_grande:hover{ border: 1px dashed #888;}
+		.vis_nome_prancha_superior_grande{ margin-top: -5%; }
+	.vis_prancha_esquerda_grande{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 330px; height: 404px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_img_prancha_esquerda_grande{ height: 80%; margin-top: 5%; }
+		.vis_prancha_esquerda_grande:hover{ border: 1px dashed #888;}
+		.vis_nome_prancha_esquerda_grande{ margin-top: -10%; }
+	.vis_prancha_superior_pequena{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 669px; height: 132px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_img_prancha_superior_pequena{ height: 80%; margin-top: 1%;  }
+		.vis_prancha_superior_pequena:hover{ border: 1px dashed #888;}
+		.vis_nome_prancha_superior_pequena{ margin-top: -1%; }
+	.vis_prancha_esquerda_pequena{ cursor:pointer; overflow: hidden; margin: 1px; text-align:center; background: #ccc; border: 1px dashed #aaa; width: 164px; height: 268px; float:left; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+		.vis_img_prancha_esquerda_pequena{ height: 80%; margin-top: 5%; }
+		.vis_nome_prancha_esquerda_pequena{ margin-top: -10%; }
+		.vis_prancha_esquerda_pequena:hover{ border: 1px dashed #888;}
+.lista_de_pranchas{ overflow-y: scroll; overflow-x: hidden; width: 360px; height: 330px; background: #667c26; border: 1px dashed #115511; margin: 5px; float: left;   }
+.cab_lista_prancha{height: 37px; width: 340px;  z-index: 992; position: fixed; background: #667c26; }	
+	.titulo_lista_de_pranchas{ height: 15px; width: 328px; background: #115511;  z-index: 999; position: fixed; border: 1px solid #003300; color:#fff; margin: 2px; padding: 5px;  }
+	.prancha_lista_pranchas{ width: 328px; height: 18px; background: #a0c544; border: 1px solid #4e7c41; color:#333; margin: 2px; padding: 4px;  }
+	.prancha_lista_pranchas:hover{ background: #ccfb5d; cursor: pointer; }
+	.lista_de_pranchas_quadro{ margin-top: 64px; position: relative; }
+		.foto_prancha_lista { float:left; margin-right: 2px; }
+		.nome_prancha_lista { float:left; color: #000; text-shadow: 0px 1px 1px #ccc; }
+		.data_prancha_lista { float:right; color: #667c26; text-shadow: 0px 1px 1px #ccc; }
+		.fechar_prancha_lista { float:right; z-index: 990;}
+		.msg_lista_pranchas{ color: #eee; padding: 2px; }
+	.busca_lista_de_pranchas{ z-index: 999; position: fixed; width: 330px; height: 22px; background: #667c26; border-bottom: 1px dashed #ccfb5d; margin: 2px; margin-top: 30px; padding: 4px;  }
+	.busca_lista_de_pranchas input{ color: #ccc; }
+.tela_carregando{ z-index: 99999; top: 0px; left: 0px; height: 100%; width: 100%; position:absolute; margin:0; padding:0; background-color: #DFECB4;}
+.voltar{ width: 60px; height: 60px; background: url(../imagens/site/tela1/voltar.png) no-repeat; cursor: pointer; position: fixed; left: 100%; top: 10px; margin-left: -90px;}
+.div-ajax-carregamento-pagina{	position: absolute;	top: 0px;	left: 0px;	width: 100%; height: 100%; z-index: 9999997; opacity:0.65; -moz-opacity: 0.65; filter: alpha(opacity=65); background: black; text-align: center; }
+.div-carregamento-pagina{	display: none;  position: absolute;	top: 0px;	left: 0px;	width: 100%; height: 100%; z-index: 9999997; text-align: center; }
+.div-ajax-carregamento-pagina{	position: absolute;	top: 0px;	left: 0px;	width: 100%; height: 100%; z-index: 9999998; text-align: center; }
+
+

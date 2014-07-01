@@ -1,0 +1,31 @@
+body, html { top: 0px; left: 0px; font-size: 11px; font-family: Verdana, arial; height: 100%; width: 100%; position:absolute; margin:0; padding:0;  background-color: #FFF;}
+.cab_capa{ width: 100%; height: 70px; top:0; left: 0; position: relative; background: url(../imagens/site/fundo_cab.png) repeat-x; border-bottom: 1px dashed #6B8E23; }
+	.log_form{ width: 800px; left: 50%; margin-left: -400px; position: relative; font-size: 16px; text-align: right; padding: 5px; color: #fff; }
+.tudo_capa{ width: 100%; left: 0; position: relative; display: table; height: 400px;  background-color: #DFECB4;}
+.centro_capa{ display:table; width: 800px; left: 50%; margin-left: -400px; position: relative; height: 400px;  background-color: #DFECB4;}
+.centro_capa a{  position: relative; margin: 5px; float:right; }
+.centro_capa a img{ width: 22px; height: 16px; }
+.logo_scala_capa{ width: 370px; padding: 5px; margin: 5px; float: left;  }
+	.link_equipe{ color: #fefefe; font-size: 13px; margin-top: 5px; float: left; }
+	.link_equipe:hover{ color: #ffffff; text-shadow: 0px 1px 0px #ccc; cursor:pointer }
+.forms_capa{ width: 370px; min-height: 300px; padding: 5px; margin: 5px; float: left; border: 1px solid #9ACD32; background: #fff; }
+	.frm_capa{  float: left; }
+	.titulo_form{ padding: 5px; background:  url(../imagens/site/fundo_cab_form.png) repeat-x; border: 1px solid #009900; color: #fff; font-size: 13px; width: 350px; margin: 3px; 	}
+	.inputs{ padding: 5px;  }
+		.cad_capa{ display: block; position: relative; cursor: pointer; background:  url(../imagens/site/cad.png) no-repeat; width: 100px; height: 20px; border: 1px solid #009900; font-color:#ffff;}
+		.cad_capa:hover{ background:  url(../imagens/site/cad_hover.png) no-repeat;}
+		.log_capa{ margin-top: 5px;float: right; cursor: pointer; background:  url(../imagens/site/log.png) no-repeat; border: 1px solid #009900; width: 100px; height: 20px; }
+		.log_capa:hover{  background:  url(../imagens/site/log_hover.png) no-repeat;}
+.rodape_capa{ width: 100%; border-top: dashed 1px #9ACD32; position: relative;}
+	.rodape_apoio_capa{ width: 800px; margin-left: -400px; left: 50%;  position: relative;}
+	.rodape_secao{ width: 370px; margin: 5px; padding: 5px; float: left; }
+		.rodape_titulo_secao{ color: #000; }
+	.rodape_consideracoes{ color: #333; padding: 5px; font-size: 9px; }
+	.rodape_consideracoes a{ color: #333; }
+.quadro{ left: 50%; width: 400px; position: relative; font-size: 12px; margin-left: -200px; height: 300px; padding: 10px;}
+
+
+.ui-state-highlight { border: 1px solid #FFD700 !important; background: #FFF8DC !important; padding: 2px; color: #333;}
+.ui-state-error{ border: 1px solid #B22222 !important; }
+
+.voltar{ width: 60px; height: 60px; background: url(../imagens/site/voltar.png) no-repeat; cursor: pointer; position: absolute; left: 100%; top: 10px; margin-left: -90px;}
